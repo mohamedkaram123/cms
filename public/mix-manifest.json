@@ -1,0 +1,9 @@
+{
+    "/js/backend.js": "/js/backend.js",
+    "/js/frontend.js": "/js/frontend.js",
+    "/js/backend1.js": "/js/backend1.js",
+    "/js/report.js": "/js/report.js",
+    "/js/ordersLog.js": "/js/ordersLog.js",
+    "/js/refund_request.js": "/js/refund_request.js",
+    "/css/app.css": "/css/app.css"
+}

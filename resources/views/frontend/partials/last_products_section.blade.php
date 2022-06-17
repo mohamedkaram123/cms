@@ -1,0 +1,19 @@
+<section class="mb-md-4 mb-2">
+    <div class="container">
+        <div class="px-2 py-4 px-md-4 py-md-3 bg-white shadow-sm rounded">
+            <div class="d-flex mb-3 align-items-baseline border-bottom">
+                <h3 class="h5 fw-700 mb-0">
+                    <span
+                        class="border-bottom border-primary border-width-2 pb-3 d-inline-block">{{ translate('Recently Arrived Products') }}</span>
+                </h3>
+            </div>
+
+            <div class="aiz-carousel gutters-10 half-outside-arrow" data-items="5" data-xl-items="5" data-lg-items="4"
+                data-md-items="3" data-sm-items="2" data-xs-items="2" data-arrows='true' data-infinite='true'>
+                @foreach ($products as $key => $product)
+                    @include('frontend.product_view')
+                @endforeach
+            </div>
+        </div>
+    </div>
+</section>

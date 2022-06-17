@@ -1,0 +1,124 @@
+.slides .slick-prev,
+.slides .slick-next {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+}
+
+.slides {
+    position: relative;
+    justify-content: space-around;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+}
+
+.slides .slick-prev {
+    left: 5%;
+}
+
+.slides .slick-next {
+    right: 5%;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50em;
+    border: 0;
+    box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+    font-size: 15px;
+    line-height: 40px;
+    padding: 0;
+    text-align: center;
+}
+
+.aiz-carousel .slick-prev:hover,
+.aiz-carousel .slick-next:hover {
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.15) !important;
+}
+
+.aiz-carousel .slick-prev {
+    left: 10px;
+}
+
+.aiz-carousel .slick-disabled {
+    display: none !important;
+}
+
+.aiz-carousel .slick-next {
+    right: 10px;
+}
+
+.aiz-carousel .slick-dots {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.aiz-carousel .slick-dots button {
+    height: 11px;
+    width: 11px;
+    padding: 0px;
+    color: transparent;
+    border: 0;
+    background: #ddd;
+    border-radius: 50%;
+    margin: 0 3px;
+}
+
+.aiz-carousel .slick-dots .slick-active button {
+    background: var(--primary)
+}
+
+.aiz-carousel.dots-inside-bottom .slick-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+.half-outside-arrow .slick-prev {
+    left: -10px;
+}
+
+.half-outside-arrow .slick-next {
+    right: -10px;
+}
+
+.slick-vertical .slick-arrow {
+    top: auto;
+    left: 50%;
+    transform: translateX(-50%) rotate(90deg);
+    -webkit-transform: translateX(-50%) rotate(90deg);
+}
+
+.slick-vertical .slick-prev {
+    top: -10px;
+}
+
+.slick-vertical .slick-next {
+    bottom: -10px;
+}
+
+.slick-prev-momo {
+    left: -25px;
+}
+
+.slick-next-momo {
+    right: -25px;
+}
